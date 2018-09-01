@@ -1,0 +1,153 @@
+handler 回调函数
+ react-native
+ 小程序
+ 一定要写
+ 移动端适配
+ express
+ ui库 element-ui antd
+ 服务器
+ 配饰域名 做域名解析 上线后就是URL 
+ 调试 抓包 
+ 业务压力大
+ 整体掌控
+ 低调 有信心
+ 业务代码 技术代码
+ 不刷新跟新
+ 优化
+ 前端校验
+ 169.254.78.172
+ 
+ 伪数组 ios有兼容 document.querySelector; arguments;
+ 块级作用域 产生闭包 模块化 开发很多 就需要返回一两个数据
+ 判断对象为空 Object.key(key);
+ apply(this,[])
+ call(this,{})立即调用
+ bind(this) 函数会返回新的函数
+ 
+ 浅拷贝 地址不会变 
+ 深拷贝 换个内存 不改变原来的 一定会返回一个新的数组
+ 
+ concat 返回一个新数组 本身是个深拷贝
+ [...arr]
+ 赋值的话 值和指针都指向同一个地方
+ 
+ object.assign()
+ 
+ 最外层是深拷贝 里面还有数据类型是浅拷贝
+ 
+ promise 可以传参 封装功能  不希望它立即执行 调用再执行
+ 
+ padding 初始状态  一直padding 不会执行 fulfilled rejected 改变之后做个调用
+ 
+ 为啥可以链式调用 返回一个promise 供一个使用
+ 
+ all()所有执行完 并发 race() 有一个成功 后面就不执行了
+ 
+ 链式调用 return 返回一个promise
+ 
+ fetch() 只要给个url 返回值是个promise h5 新特性 xml
+ axios
+ ajax
+ 
+ async 异步函数 可以有同步操作
+ 
+ 连做三个请求
+ 
+ async await拿到promise返回回来的resolve 阻塞;
+ 
+ 冒泡 控制在这里 不影响代码执行
+ 
+ 异步操作 在同步操作之后
+ 
+ mdn 火狐的官网
+ 
+ jsonp 请求一个script标签
+ 
+ postman
+ 
+ 二维码工具
+ 前端共统集合
+ vue
+ 
+ 重绘 只改变css dom不会重新来 v-show
+ 回流 改变的更多 v-if
+ 
+ esm运行时编译
+ 
+ data() 每次返回不一样
+ computed 计算属性 读的时候用
+ watch 写的时候 改的时候的值
+ 
+ state 赋值 渲染虚拟DOM 
+ vue set get 方法
+ 
+ 派生词
+ 
+ props 类型检查 默认值 健壮 兼容 抗风险能力强
+ extention .vue可以省略
+ vue底层 对象 返回一个vNode对象
+ react constructor类
+ 
+ process mind
+ 
+ async 创建图片加载 forEach onLoad
+ 
+ fetch 返回promise  
+ 
+ easy-mock
+ 
+ keep-alive 常用组件 包一下 代替缓存
+ 
+ slot
+ 
+ 750*1334 iphone 6 7 8 
+ 
+ database 数据库 
+ 
+  vuex
+ 
+ commit
+ mutation
+ 
+ dispatch
+ action
+ 
+ mapState 映射 辅助函数
+ 
+ 映射过来 注入state
+ 。。。{}本身是对象 。。。进行展开
+ 1 获取数据
+ 2 触发改变
+ 
+ 派生数据
+ 
+ 划分module
+ 
+ redux 插件 
+ 
+ namespace 模块名称再到我
+ 
+ 图片懒加载 滚动 
+ 2018-9-1
+ module 是为了 分管理数据
+ 
+ dispatch 异步的 actions
+ 
+ 唯一改变state mutation(state,payload)
+ 
+ namespace 不用 会响应全局
+ 
+ vuex 根目录是当前文件
+ react 指向的是public
+ 
+ mockjs 基于node.js  mock是本地数据 刷新就没了
+ 数据库 是持续化数据 刷新后是 数据库中的数据
+ 
+ node.js 异步 非阻塞 代码先是执行 在回来通知你 采用的是事件驱动
+ 
+ 表单还有一种就是网络请求 稍微复杂点
+ 
+ 
+	
+ 
+ 
